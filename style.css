@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Cormorant Garamond", serif;
+    background-color: #7E674C;
+}
+
+nav,
+.navLinks{
+    display: flex;
+} 
+
+nav{
+    justify-content: space-around; 
+    align-items: center;
+    height: 10vh;
+} 
+
+.navLinks{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+a{
+    color: #DEDEDE;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    font-weight: 600;
+}
+
+hr {
+    border: none;
+    border-top: 0.2px solid white;
+    margin: 3px auto; 
+    width: 95%;
+}
+
+.title{
+    padding: 30px;
+}
+
+.titleText{
+    font-family: "Raleway", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.worksMenu{
+    padding: 30vh;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.worksList{
+    list-style: none;
+    font-size: 3.5rem;
+}
+
+footer{
+    padding: 2rem 1rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-title {
+    color: white;
+    font-size: 3.5rem;
+    padding: 30px;
+    text-decoration: none;
+}
+
+socialIcons {
+    margin: 1rem 0;
+}
+
+.socialIcons a {
+    padding: 30px;
+    display: inline-block;
+}
+
+.socialIcons img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.copyright {
+    color: white;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
